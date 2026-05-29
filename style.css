@@ -686,8 +686,8 @@ a {
     max-width: 620px;
     left: 50%;
     bottom: 0;
-    height: min(45svh, 410px);
-    min-height: 315px;
+    height: min(calc(42svh + 6px), 396px);
+    min-height: 316px;
     margin: 0;
     transform: translateX(-50%);
     overflow: hidden;
@@ -696,9 +696,9 @@ a {
     background:
       linear-gradient(180deg, rgba(2, 7, 17, 0.96) 0%, rgba(2, 7, 17, 0.58) 18%, rgba(2, 7, 17, 0.08) 52%, rgba(2, 7, 17, 0.38) 100%),
       url("assets/hero-house-mobile.png");
-    background-size: min(112vw, 540px) auto;
-    background-position: center 46%;
-    background-repeat: no-repeat;
+    background-size: 100% 100%, 100% 100%;
+    background-position: center, center bottom;
+    background-repeat: no-repeat, no-repeat;
     box-shadow: none;
     pointer-events: none;
     z-index: 1;
@@ -806,11 +806,11 @@ a {
   }
 
   .hero__photo-slot {
-    height: min(44svh, 392px);
-    min-height: 304px;
+    height: min(calc(42svh + 6px), 396px);
+    min-height: 316px;
     margin-top: 0;
-    background-size: min(114vw, 500px) auto;
-    background-position: center 45%;
+    background-size: 100% 100%, 100% 100%;
+    background-position: center, center bottom;
   }
 }
 
@@ -916,11 +916,11 @@ a {
   }
 
   .hero__photo-slot {
-    height: min(43svh, 360px);
-    min-height: 286px;
+    height: min(calc(41svh + 6px), 356px);
+    min-height: 298px;
     margin-top: 0;
-    background-size: min(116vw, 455px) auto;
-    background-position: center 44%;
+    background-size: 100% 100%, 100% 100%;
+    background-position: center, center bottom;
   }
 }
 
@@ -1016,10 +1016,10 @@ a {
   }
 
   .hero__photo-slot {
-    height: min(42svh, 330px);
-    min-height: 270px;
-    background-size: min(118vw, 425px) auto;
-    background-position: center 43%;
+    height: min(calc(40svh + 6px), 326px);
+    min-height: 276px;
+    background-size: 100% 100%, 100% 100%;
+    background-position: center, center bottom;
   }
 }
 
