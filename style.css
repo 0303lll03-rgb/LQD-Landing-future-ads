@@ -582,9 +582,16 @@ a {
     max-width: 100%;
     position: relative;
     z-index: 2;
-    font-size: clamp(43px, 11vw, 50px);
-    line-height: 1.02;
-    letter-spacing: -0.044em;
+    font-size: clamp(48px, 12.5vw, 62px);
+    line-height: 0.98;
+    letter-spacing: -0.04em;
+  }
+
+  .hero__title span {
+    background: linear-gradient(180deg, #7fd0ff 0%, #35a2ff 48%, #1478ff 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-shadow: 0 0 24px rgba(53, 162, 255, 0.72), 0 0 46px rgba(20, 120, 255, 0.46);
   }
 
   .hero__text {
@@ -613,6 +620,11 @@ a {
     gap: 14px;
     font-size: 20px;
     font-weight: 800;
+  }
+
+  .btn--primary {
+    background: linear-gradient(135deg, #1478ff 0%, #35a2ff 100%);
+    box-shadow: 0 0 34px rgba(20, 120, 255, 0.58), inset 0 1px 0 rgba(255, 255, 255, 0.2);
   }
 
   .btn--secondary {
@@ -686,8 +698,8 @@ a {
     max-width: 620px;
     left: 50%;
     bottom: 0;
-    height: min(calc(42svh + 6px), 396px);
-    min-height: 316px;
+    height: min(calc(42svh + 1px), 391px);
+    min-height: 311px;
     margin: 0;
     transform: translateX(-50%);
     overflow: hidden;
@@ -695,7 +707,7 @@ a {
     border-radius: 0;
     background:
       linear-gradient(180deg, rgba(2, 7, 17, 0.96) 0%, rgba(2, 7, 17, 0.58) 18%, rgba(2, 7, 17, 0.08) 52%, rgba(2, 7, 17, 0.38) 100%),
-      url("assets/hero-house-mobile.png");
+      url("assets/house-mobile-crop.png");
     background-size: 100% 100%, 100% 100%;
     background-position: center, center bottom;
     background-repeat: no-repeat, no-repeat;
@@ -759,7 +771,7 @@ a {
   }
 
   .hero__title {
-    font-size: clamp(41px, 10.7vw, 46px);
+    font-size: clamp(40px, 9.8vw, 43px);
     line-height: 1.02;
     letter-spacing: -0.042em;
   }
@@ -806,8 +818,8 @@ a {
   }
 
   .hero__photo-slot {
-    height: min(calc(42svh + 6px), 396px);
-    min-height: 316px;
+    height: min(calc(42svh + 1px), 391px);
+    min-height: 311px;
     margin-top: 0;
     background-size: 100% 100%, 100% 100%;
     background-position: center, center bottom;
@@ -885,7 +897,7 @@ a {
     min-height: 54px;
     border-radius: 17px;
     gap: 12px;
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .hero__stats {
@@ -916,8 +928,8 @@ a {
   }
 
   .hero__photo-slot {
-    height: min(calc(41svh + 6px), 356px);
-    min-height: 298px;
+    height: min(calc(41svh + 1px), 351px);
+    min-height: 293px;
     margin-top: 0;
     background-size: 100% 100%, 100% 100%;
     background-position: center, center bottom;
@@ -1016,8 +1028,8 @@ a {
   }
 
   .hero__photo-slot {
-    height: min(calc(40svh + 6px), 326px);
-    min-height: 276px;
+    height: min(calc(40svh + 1px), 321px);
+    min-height: 271px;
     background-size: 100% 100%, 100% 100%;
     background-position: center, center bottom;
   }
