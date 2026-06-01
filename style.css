@@ -698,8 +698,8 @@ a {
     max-width: 620px;
     left: 50%;
     bottom: 0;
-    height: min(calc(42svh + 1px), 391px);
-    min-height: 311px;
+    height: min(calc(46svh + 1px), 421px);
+    min-height: 336px;
     margin: 0;
     transform: translateX(-50%);
     overflow: hidden;
@@ -709,7 +709,7 @@ a {
       linear-gradient(180deg, rgba(2, 7, 17, 0.96) 0%, rgba(2, 7, 17, 0.58) 18%, rgba(2, 7, 17, 0.08) 52%, rgba(2, 7, 17, 0.38) 100%),
       url("assets/house-mobile-crop.png");
     background-size: 100% 100%, contain;
-    background-position: center, center bottom;
+    background-position: center, center top;
     background-repeat: no-repeat, no-repeat;
     box-shadow: none;
     pointer-events: none;
@@ -727,7 +727,7 @@ a {
     display: block;
     background:
       radial-gradient(circle at 50% 18%, rgba(17, 109, 255, 0.14), transparent 32%),
-      linear-gradient(180deg, rgba(2, 7, 17, 0.58) 0%, rgba(2, 7, 17, 0.02) 34%, rgba(2, 7, 17, 0.08) 72%, rgba(2, 7, 17, 0.42) 100%);
+      linear-gradient(180deg, rgba(2, 7, 17, 0.34) 0%, rgba(2, 7, 17, 0.02) 34%, rgba(2, 7, 17, 0.08) 72%, rgba(2, 7, 17, 0.42) 100%);
   }
 }
 
@@ -822,11 +822,11 @@ a {
   }
 
   .hero__photo-slot {
-    height: min(calc(42svh + 1px), 400px);
-    min-height: 311px;
+    height: min(calc(45svh + 1px), 421px);
+    min-height: 336px;
     margin-top: 0;
     background-size: 100% 100%, contain;
-    background-position: center, center bottom;
+    background-position: center, center top;
   }
 }
 
@@ -932,11 +932,11 @@ a {
   }
 
   .hero__photo-slot {
-    height: min(calc(41svh + 1px), 351px);
-    min-height: 293px;
+    height: min(calc(42svh + 1px), 356px);
+    min-height: 318px;
     margin-top: 0;
     background-size: 100% 100%, contain;
-    background-position: center, center bottom;
+    background-position: center, center top;
   }
 }
 
@@ -1032,13 +1032,12 @@ a {
   }
 
   .hero__photo-slot {
-    height: min(calc(40svh + 1px), 321px);
-    min-height: 271px;
+    height: min(calc(43svh + 1px), 344px);
+    min-height: 304px;
     background-size: 100% 100%, contain;
-    background-position: center, center bottom;
+    background-position: center, center top;
   }
 }
-
 
 
 
