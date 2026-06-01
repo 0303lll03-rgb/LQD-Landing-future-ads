@@ -697,7 +697,7 @@ a {
     width: 100vw;
     max-width: 620px;
     left: 50%;
-    bottom: 0;
+    bottom: 6px;
     height: min(calc(42svh + 1px), 391px);
     min-height: 311px;
     margin: 0;
@@ -714,6 +714,10 @@ a {
     box-shadow: none;
     pointer-events: none;
     z-index: 1;
+  }
+
+  .hero__photo-line {
+    display: none;
   }
 
   .hero__photo-slot::before {
