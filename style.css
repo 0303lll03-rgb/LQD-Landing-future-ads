@@ -822,7 +822,7 @@ a {
   }
 
   .hero__photo-slot {
-    height: min(calc(42svh + 1px), 410px);
+    height: min(calc(42svh + 1px), 400px);
     min-height: 311px;
     margin-top: 0;
     background-size: 100% 100%, contain;
