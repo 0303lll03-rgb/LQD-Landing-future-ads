@@ -1,0 +1,236 @@
+﻿<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>LQD</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#" class="logo">
+        <span class="logo__main">LQD</span>
+        <span class="logo__sub">WATER & HEAT</span>
+      </a>
+
+      <nav class="nav">
+        <a href="#services">Послуги</a>
+        <a href="#">Чому LQD</a>
+        <a href="#">Контакти</a>
+      </nav>
+
+      <a href="#" class="header__btn">
+        Direct
+        <span class="header__btn-icon">➤</span>
+      </a>
+
+      <button class="header__menu" aria-label="Відкрити меню"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero__glow hero__glow--two"></div>
+    <div class="hero__icons-restore" aria-hidden="true"></div>
+
+    <div class="hero__content">
+      <h1 class="hero__title">
+        Один сервіс<br>
+        для <span>всіх систем</span><br>
+        будинку
+      </h1>
+
+      <p class="hero__text">
+        Обслуговування опалення,<br>
+        водоочистки та свердловин<br>
+        у Київській області
+      </p>
+
+      <div class="hero__buttons">
+        <a href="https://t.me/vllsn_a" class="btn btn--primary">
+          <span class="btn__icon">▣</span>
+          Отримати консультацію
+        </a>
+
+        <a href="#services" class="btn btn--secondary">
+          <span class="btn__icon">▦</span>
+          Наші послуги
+        </a>
+      </div>
+
+      <div class="hero__stats">
+        <div class="hero__stat">
+          <span class="hero__stat-icon">♢</span>
+          <span class="hero__stat-text">
+            <strong>10 років</strong>
+            <small>досвіду</small>
+          </span>
+        </div>
+
+        <div class="hero__stat">
+          <span class="hero__stat-icon">◎</span>
+          <span class="hero__stat-text">
+            <strong>400+</strong>
+            <small>клієнтів</small>
+          </span>
+        </div>
+
+        <div class="hero__stat">
+          <span class="hero__stat-icon">✧</span>
+          <span class="hero__stat-text">
+            <strong>Авторизований</strong>
+            <small>сервіс</small>
+          </span>
+        </div>
+      </div>
+
+      <div class="hero__photo-slot" aria-label="Місце для фото будинку">
+        <div class="hero__photo-line hero__photo-line--one"></div>
+        <div class="hero__photo-line hero__photo-line--two"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="container services__inner">
+      <div class="services__heading reveal">
+        <p class="services__eyebrow">Наші послуги</p>
+        <h2 class="services__title">Обслуговуємо всі інженерні системи вашого будинку</h2>
+      </div>
+
+      <div class="services__grid">
+        <article class="service-card service-card--heating">
+          <div class="service-card__content">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 56 56" focusable="false">
+                <path d="M11.5 20h4" />
+                <path d="M40.5 20h4" />
+                <path d="M11.5 36h4" />
+                <path d="M40.5 36h4" />
+                <path d="M16 18.5c0-2.8 4.5-2.8 4.5 0v19c0 2.8-4.5 2.8-4.5 0v-19Z" />
+                <path d="M23.8 18.5c0-2.8 4.5-2.8 4.5 0v19c0 2.8-4.5 2.8-4.5 0v-19Z" />
+                <path d="M31.6 18.5c0-2.8 4.5-2.8 4.5 0v19c0 2.8-4.5 2.8-4.5 0v-19Z" />
+                <path d="M39.4 18.5c0-2.8 4.5-2.8 4.5 0v19c0 2.8-4.5 2.8-4.5 0v-19Z" />
+              </svg>
+            </div>
+            <h3 class="service-card__title">Опалення</h3>
+            <p class="service-card__text">Котли, пальники, системи</p>
+            <a class="service-card__link" href="#" data-service="heating">Дізнатись більше <span>→</span></a>
+          </div>
+        </article>
+
+        <article class="service-card service-card--water">
+          <div class="service-card__content">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 56 56" focusable="false">
+                <path d="M28 9.5C19.9 20.6 15.5 28.2 15.5 35.7a12.5 12.5 0 0 0 25 0C40.5 28.2 36.1 20.6 28 9.5Z" />
+                <path d="M22.8 36.2c1 3 3.6 5.1 6.9 5.3" />
+              </svg>
+            </div>
+            <h3 class="service-card__title">Водоочистка</h3>
+            <p class="service-card__text">Фільтри, осмос, станції</p>
+            <a class="service-card__link" href="#" data-service="water">Дізнатись більше <span>→</span></a>
+          </div>
+        </article>
+
+        <article class="service-card service-card--well">
+          <div class="service-card__content">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 56 56" focusable="false">
+                <path d="M24 11.5h8" />
+                <path d="M25.5 11.5v15h5v-15" />
+                <path d="M22.5 26.5h11" />
+                <path d="M24 26.5v13.5h8V26.5" />
+                <path d="M19.5 44h17" />
+              </svg>
+            </div>
+            <h3 class="service-card__title">Свердловини</h3>
+            <p class="service-card__text">Насоси, автоматика, сервіс</p>
+            <a class="service-card__link" href="#" data-service="wells">Дізнатись більше <span>→</span></a>
+          </div>
+        </article>
+
+        <article class="service-card service-card--heat-pump">
+          <div class="service-card__content">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 56 56" focusable="false">
+                <rect x="10" y="13.5" width="36" height="30" rx="4" />
+                <circle cx="28" cy="29" r="8.5" />
+                <circle cx="28" cy="29" r="2.3" />
+                <path d="M28 20.5v6.2M35.4 33.2 30 30.1M20.6 33.2 26 30.1" />
+                <path d="M15.5 43.5v3M40.5 43.5v3" />
+              </svg>
+            </div>
+            <h3 class="service-card__title">Теплові насоси</h3>
+            <p class="service-card__text">Діагностика та сервіс</p>
+            <a class="service-card__link" href="#" data-service="heatPumps">Дізнатись більше <span>→</span></a>
+          </div>
+        </article>
+
+        <article class="service-card service-card--automation">
+          <div class="service-card__content">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 56 56" focusable="false">
+                <rect x="18" y="9" width="20" height="38" rx="4.5" />
+                <path d="M23.5 16h9" />
+                <rect x="23" y="22" width="10" height="8.5" rx="2.5" />
+                <path d="M23.5 36h9" />
+                <circle cx="24.5" cy="41.5" r="1.6" />
+                <circle cx="31.5" cy="41.5" r="1.6" />
+              </svg>
+            </div>
+            <h3 class="service-card__title">Автоматика</h3>
+            <p class="service-card__text">Контролери, щити, керування</p>
+            <a class="service-card__link" href="#" data-service="automation">Дізнатись більше <span>→</span></a>
+          </div>
+        </article>
+
+        <article class="service-card service-card--complex">
+          <div class="service-card__content">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 56 56" focusable="false">
+                <path d="M11.5 28 28 14l16.5 14" />
+                <path d="M16.5 26.5v18h23v-18" />
+                <path d="M23.8 44.5v-12h8.4v12" />
+              </svg>
+            </div>
+            <h3 class="service-card__title">Сервіс будинку</h3>
+            <p class="service-card__text">Усі системи під контролем</p>
+            <a class="service-card__link" href="#" data-service="homeService">Дізнатись більше <span>→</span></a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <div class="service-modal" id="service-modal" aria-hidden="true">
+    <div class="service-modal__backdrop" data-modal-close></div>
+    <div class="service-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="service-modal-title" tabindex="-1">
+      <button class="service-modal__close" type="button" aria-label="Закрити" data-modal-close>×</button>
+      <div class="service-modal__header">
+        <div class="service-modal__icon" aria-hidden="true"></div>
+        <div>
+          <h3 class="service-modal__title" id="service-modal-title"></h3>
+          <p class="service-modal__subtitle"></p>
+        </div>
+      </div>
+      <p class="service-modal__description"></p>
+      <div class="service-modal__included">
+        <h4 class="service-modal__included-title">Що входить:</h4>
+        <ul class="service-modal__list"></ul>
+      </div>
+      <button class="service-modal__button" type="button" data-modal-close>Закрити</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
